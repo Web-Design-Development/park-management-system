@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking Lot</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="form-container">
+            <form action="">
+                <div class="names sub-container">
+                    <div class="name-container">
+                        <label for="owner">Owner:</label><br>
+                        <input type="text" id="owner" placeholder="Ucheboy">
+                    </div>
+                    <div class="car-container">
+                        <label for="car">Car:</label><br>
+                        <input type="text" id="car" placeholder="Mercedes Benz">
+                    </div>
+                </div>
+                <div class="class-plate sub-container">
+                    <div class="type">
+                        <label for="type">Class</label><br>
+                        <select name="" id="class">
+                            <option value="suv">SUV</option>
+                            <option value="sedan">SEDAN</option>
+                        </select>
+                    </div>
+                    <div class="plate-number">
+                        <label for="license">License Plate</label><br>
+                        <input type="tel" id="license" placeholder="123 345 657">
+                    </div>
+                </div>
+                <div>
+                    <label for="entry">Entry time</label><br>
+                    <div class="entry">
+                        <input type="time" name="entry" id="entry">
+                        <input type="submit" id="add-car" value="Add Car">
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+        <div class="display-container">
+            <div class="display-table sedan">
+                <table class="car-log">
+                    <thead>Sedans</thead>
+                    <tr class="display-header">
+                        <th class="owner-display">Car Owner</th>
+                        <th class="car-display">Car</th>
+                        <th class="license-display">License Plate</th>
+                        <th class="entry-display">Entry time</th>
+                        <th class="exit-display">Action</th>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+
+            <div class="display-table suv">
+                <table class="car-log">
+                    <thead>Suv</thead>
+                    <tr class="display-header">
+                        <th class="owner-display">Car Owner</th>
+                        <th class="car-display">Car</th>
+                        <th class="license-display">License Plate</th>
+                        <th class="entry-display">Entry time</th>
+                        <th class="exit-display">Action</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

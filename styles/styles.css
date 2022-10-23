@@ -1,0 +1,65 @@
+.form-container {
+    margin: auto;
+}
+
+form {
+    margin: auto;
+    width: 80%;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+#entry,
+#add-car {
+    width: 10rem;
+}
+
+#add-car {
+    text-align: center;
+}
+
+.exit {
+    width: 3.5rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
+.display-container {
+    margin-top: 30px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: rgb(252, 247, 241);
+    font-size: 12px;
+    overflow: hidden;
+}
+
+table,
+th,
+td {
+    border: .6px solid black;
+}
+
+th {
+    width: 15%;
+    height: 2rem;
+}
+
+.exit-display {
+    width: 30%;
+}
