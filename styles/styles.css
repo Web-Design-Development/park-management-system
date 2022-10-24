@@ -26,14 +26,26 @@ form {
     text-align: center;
 }
 
+.errorClass {
+    border: solid .6px red;
+}
+
+.cleanClass {
+    border: solid .5px lightgray;
+}
+
+
+
+
+
+
+
+
 .exit {
     width: 3.5rem;
     height: 2rem;
     margin-right: 1rem;
 }
-
-
-
 
 
 .display-container {
@@ -58,8 +70,4 @@ td {
 th {
     width: 15%;
     height: 2rem;
-}
-
-.exit-display {
-    width: 30%;
 }
