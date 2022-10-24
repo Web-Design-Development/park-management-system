@@ -92,6 +92,14 @@ form.addEventListener('submit', (e) => {
         carInput.classList.add('cleanClass');
         licenseInput.classList.add('cleanClass');
         entryInput.classList.add('cleanClass');
+
+        carParkSuv.addEventListener('click', (e) => {
+            let arrival = entryDisplay.innerText;
+            let departure = exitInput.value;
+            console.log(arrival);
+            console.log(departure);
+
+        })
     }
 
     ownerInput.value = '';
